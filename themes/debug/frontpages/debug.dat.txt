@@ -1,0 +1,4 @@
+# Lines must BEGIN with "#" to be considered a comment
+# Data format: name min max description
+big 1 1 The main area of the page 
+main 1 5 The Big box at the top of the page 

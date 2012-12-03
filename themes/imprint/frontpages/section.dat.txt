@@ -1,0 +1,2 @@
+filmstrip 1 1 The filmstrip at the top of the page, holding the top story
+main 10 50 The main content area of the page

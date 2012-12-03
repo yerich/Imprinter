@@ -1,0 +1,2 @@
+featured 2 10 The featured stories section at the top of the page
+main 2 20 The main content area of the page
