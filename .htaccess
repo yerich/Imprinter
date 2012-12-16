@@ -1,8 +1,6 @@
 php_flag magic_quotes_gpc Off
-
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)/?$ index.php?_req_pg=$1&%{QUERY_STRING} [L]
-
 Options -Indexes
