@@ -10,9 +10,9 @@
 
 //Database connection settings
 define("DB_HOST", $_ENV{DATABASE_SERVER});
-define("DB_NAME", "db107536_theimprint_ca");
-define("DB_USERNAME", "1clk_wp_XgFwuKz");
-define("DB_PASSWORD", "YzY6RL6Z");
+define("DB_NAME", "imprint");
+define("DB_USERNAME", "root");
+define("DB_PASSWORD", "password");
 
 //Database Table Values
 define("TBL_CONFIG", "config");
