@@ -20,7 +20,7 @@ Requires PHP 5.x and mySQL 5. Copy this repository into your web root folder and
 
 #Database schema
 
-`
+```
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -109,4 +109,4 @@ INSERT INTO `config` (`key`, `value`, `type`, `description`) VALUES
 ('SITE_NAME', 'Example', 'strong', 'The Name of the Website'),
 ('TBL_ADS', 'ads', 'varchar', 'The Ads table in the database');
 
-`
+```
