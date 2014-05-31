@@ -93,4 +93,20 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (salt, username, password, userlevel) VALUES ("f4d6e4ab08", "admin", "bd0c34c40317cfd6aefa68ca5564e3bb", 5) ;
 
+INSERT INTO `config` (`key`, `value`, `type`, `description`) VALUES
+('HOMEPAGE_ID', '1', 'page', 'The page will serve as the homepage for the website.'),
+('GUEST_LEVEL', '0', 'int', ''),
+('GUEST_NAME', 'guest', '', ''),
+('CURR_THEME', 'imprint', 'varchar', 'The website''s theme, as found in the /theme/ directory.'),
+('FRONTPAGE_DEFAULT', 'debug', 'varchar', 'The name of the frontpage used by default.'),
+('FRONTPAGE_SECTION', '24', 'int', 'The default section frontpage.'),
+('FRONTPAGE_AUTHOR', '22', 'int', 'The ID of the Author Frontpage to be used by default.'),
+('FRONTPAGE_SERIES', '26', 'int', 'The ID of the Series Frontpage to be used by default.'),
+('DEBUG_MODE', '0', 'bool', 'Turn on debugging features'),
+('ADMIN_EMAIL', test@example.com', 'string', 'The email of the Web Administrator'),
+('SHORT_URL', 'example.com', 'string', 'Shortened URL of the site (i,e. http://www.google.com becomes google.com)'),
+('SITE_URL', 'http://www.example.com/', 'string', 'The full URL of the site (i.e. http://www.google.com/)'),
+('SITE_NAME', 'Example', 'strong', 'The Name of the Website'),
+('TBL_ADS', 'ads', 'varchar', 'The Ads table in the database');
+
 `
